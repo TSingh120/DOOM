@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h2, p {
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+
+ul li {
+  float: left;
+  border-right:1px solid #bbbbbb;
+}
+
+ul li:last-child {
+  border-right: none; 
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover:not(.active) {
+  background-color: #522a09;
+}
+
+ul li a.active {
+  background-color: #ac4704;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium'
+}
+
+p {
+  text-align: center;
+  font-family: 'Calibri'
+}
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
